@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <script src="js/productos.js"></script>
+    
+
+    <title>BinaryTree</title>
+</head>
+<body>
+    <header> <h1>I N V E N T A R I  O</h1></header>
+       </header><br>
+    <div id="app">
+        <section class="productos">
+            <form>
+                <label class="cajas" for="txtCod">
+                    Codigo: <input type="text" id="txtCod">
+                </label> <br><br>
+                <label class="cajas" for="txtNom">
+                    Nombre: <input type="text" id="txtNom">
+                </label> <br><br>
+                <label class="cajas" for="txtCant">
+                    Cantidad: <input type="number" id="txtCant">
+                </label> <br><br>
+                <label class="cajas" for="txtPrec">
+                    Precio: <input type="number" id="txtPrec">
+                </label> <br><br>
+                <div id="botones">
+                    <button type='button' id='btnAgregar'>Agregar</button>
+                    <button type='button' id='btnBuscar'>Buscar</button>
+                    <button type='button' id='btnInorder'>Inorder</button>
+                    <button type='button' id='btnPreorder'>Preorder</button>
+                    <button type='button' id='btnPostorder'>Postorder</button>
+                </div>
+                <div id="botones2">
+                    <button type='reset'>Cancelar</button>
+                    <button type='button' id='btnClear'>Borrar Detalles</button>
+                  </div>
+                  <div class="detalles" id="detalles"></div>
+            </form>
+        </section>        
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
